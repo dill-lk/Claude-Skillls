@@ -9,68 +9,31 @@ There are three ways to install Claude-Skillls. Choose the one that fits your wo
 Open **Claude Code** in any project and paste the following prompt exactly. Claude Code will fetch every skill file from this repository and save it locally so you can reference it in any future session.
 
 ```
-Please install the Claude-Skillls library for me.
+Install the Claude-Skillls library from https://github.com/dill-lk/Claude-Skillls.
 
-Fetch each of the following raw URLs and save the content to the corresponding
-local file path shown. Create any directories that don't exist yet.
+Fetch each raw URL below and save it to the local path shown.
+Create ~/.claude/skills/ if it does not exist.
 
-Skills to download:
+https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/code-generation/claude.skill.md → ~/.claude/skills/code-generation.md
+https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/debugging/claude.skill.md → ~/.claude/skills/debugging.md
+https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/refactoring/claude.skill.md → ~/.claude/skills/refactoring.md
+https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/testing/claude.skill.md → ~/.claude/skills/testing.md
+https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/documentation/claude.skill.md → ~/.claude/skills/documentation.md
+https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/api-design/claude.skill.md → ~/.claude/skills/api-design.md
+https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/database/claude.skill.md → ~/.claude/skills/database.md
+https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/security/claude.skill.md → ~/.claude/skills/security.md
+https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/performance/claude.skill.md → ~/.claude/skills/performance.md
+https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/devops/claude.skill.md → ~/.claude/skills/devops.md
+https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/architecture/claude.skill.md → ~/.claude/skills/architecture.md
+https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/code-review/claude.skill.md → ~/.claude/skills/code-review.md
+https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/data-science/claude.skill.md → ~/.claude/skills/data-science.md
+https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/frontend/claude.skill.md → ~/.claude/skills/frontend.md
+https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/mobile/claude.skill.md → ~/.claude/skills/mobile.md
+https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/machine-learning/claude.skill.md → ~/.claude/skills/machine-learning.md
+https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/system-design/claude.skill.md → ~/.claude/skills/system-design.md
+https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/accessibility/claude.skill.md → ~/.claude/skills/accessibility.md
 
-1. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/code-generation/claude.skill.md
-   → Save to: ~/.claude/skills/code-generation.md
-
-2. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/debugging/claude.skill.md
-   → Save to: ~/.claude/skills/debugging.md
-
-3. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/refactoring/claude.skill.md
-   → Save to: ~/.claude/skills/refactoring.md
-
-4. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/testing/claude.skill.md
-   → Save to: ~/.claude/skills/testing.md
-
-5. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/documentation/claude.skill.md
-   → Save to: ~/.claude/skills/documentation.md
-
-6. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/api-design/claude.skill.md
-   → Save to: ~/.claude/skills/api-design.md
-
-7. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/database/claude.skill.md
-   → Save to: ~/.claude/skills/database.md
-
-8. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/security/claude.skill.md
-   → Save to: ~/.claude/skills/security.md
-
-9. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/performance/claude.skill.md
-   → Save to: ~/.claude/skills/performance.md
-
-10. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/devops/claude.skill.md
-    → Save to: ~/.claude/skills/devops.md
-
-11. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/architecture/claude.skill.md
-    → Save to: ~/.claude/skills/architecture.md
-
-12. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/code-review/claude.skill.md
-    → Save to: ~/.claude/skills/code-review.md
-
-13. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/data-science/claude.skill.md
-    → Save to: ~/.claude/skills/data-science.md
-
-14. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/frontend/claude.skill.md
-    → Save to: ~/.claude/skills/frontend.md
-
-15. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/mobile/claude.skill.md
-    → Save to: ~/.claude/skills/mobile.md
-
-16. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/machine-learning/claude.skill.md
-    → Save to: ~/.claude/skills/machine-learning.md
-
-17. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/system-design/claude.skill.md
-    → Save to: ~/.claude/skills/system-design.md
-
-18. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/accessibility/claude.skill.md
-    → Save to: ~/.claude/skills/accessibility.md
-
-After saving all files, confirm which skills were installed and where they are saved.
+Confirm each file saved successfully.
 ```
 
 > **What happens:** Claude Code fetches each file over the network, creates the `~/.claude/skills/` directory, and writes each skill file. After that, every project on your machine can reference these skills.
