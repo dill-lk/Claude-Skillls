@@ -46,6 +46,30 @@ Skills to download:
 10. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/devops/claude.skill.md
     → Save to: ~/.claude/skills/devops.md
 
+11. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/architecture/claude.skill.md
+    → Save to: ~/.claude/skills/architecture.md
+
+12. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/code-review/claude.skill.md
+    → Save to: ~/.claude/skills/code-review.md
+
+13. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/data-science/claude.skill.md
+    → Save to: ~/.claude/skills/data-science.md
+
+14. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/frontend/claude.skill.md
+    → Save to: ~/.claude/skills/frontend.md
+
+15. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/mobile/claude.skill.md
+    → Save to: ~/.claude/skills/mobile.md
+
+16. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/machine-learning/claude.skill.md
+    → Save to: ~/.claude/skills/machine-learning.md
+
+17. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/system-design/claude.skill.md
+    → Save to: ~/.claude/skills/system-design.md
+
+18. https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/accessibility/claude.skill.md
+    → Save to: ~/.claude/skills/accessibility.md
+
 After saving all files, confirm which skills were installed and where they are saved.
 ```
 
@@ -134,16 +158,24 @@ To make skills automatically available in a specific project, add references to 
 
 Read the relevant skill file before starting a task in these areas:
 
-- Code generation: ~/.claude/skills/code-generation.md
-- Debugging:       ~/.claude/skills/debugging.md
-- Refactoring:     ~/.claude/skills/refactoring.md
-- Testing:         ~/.claude/skills/testing.md
-- Documentation:   ~/.claude/skills/documentation.md
-- API design:      ~/.claude/skills/api-design.md
-- Database:        ~/.claude/skills/database.md
-- Security:        ~/.claude/skills/security.md
-- Performance:     ~/.claude/skills/performance.md
-- DevOps:          ~/.claude/skills/devops.md
+- Code generation:  ~/.claude/skills/code-generation.md
+- Debugging:        ~/.claude/skills/debugging.md
+- Refactoring:      ~/.claude/skills/refactoring.md
+- Testing:          ~/.claude/skills/testing.md
+- Documentation:    ~/.claude/skills/documentation.md
+- API design:       ~/.claude/skills/api-design.md
+- Database:         ~/.claude/skills/database.md
+- Security:         ~/.claude/skills/security.md
+- Performance:      ~/.claude/skills/performance.md
+- DevOps:           ~/.claude/skills/devops.md
+- Architecture:     ~/.claude/skills/architecture.md
+- Code review:      ~/.claude/skills/code-review.md
+- Data science:     ~/.claude/skills/data-science.md
+- Frontend:         ~/.claude/skills/frontend.md
+- Mobile:           ~/.claude/skills/mobile.md
+- Machine learning: ~/.claude/skills/machine-learning.md
+- System design:    ~/.claude/skills/system-design.md
+- Accessibility:    ~/.claude/skills/accessibility.md
 ```
 
 Or run the installer with `--append-claude-md` to do this automatically.
@@ -168,6 +200,14 @@ Skill files are installed at ~/.claude/skills/. When I ask you to help with:
 - security review  → read ~/.claude/skills/security.md first
 - performance      → read ~/.claude/skills/performance.md first
 - DevOps / CI/CD   → read ~/.claude/skills/devops.md first
+- architecture     → read ~/.claude/skills/architecture.md first
+- code review      → read ~/.claude/skills/code-review.md first
+- data science     → read ~/.claude/skills/data-science.md first
+- frontend / UI    → read ~/.claude/skills/frontend.md first
+- mobile apps      → read ~/.claude/skills/mobile.md first
+- machine learning → read ~/.claude/skills/machine-learning.md first
+- system design    → read ~/.claude/skills/system-design.md first
+- accessibility    → read ~/.claude/skills/accessibility.md first
 ```
 
 ---

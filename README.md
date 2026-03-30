@@ -3,7 +3,7 @@
 > A curated library of advanced Claude Code skills — structured prompt templates, workflows, best practices, and checklists organised by engineering discipline.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-[![Skills](https://img.shields.io/badge/skills-10-blue)](#skill-library)
+[![Skills](https://img.shields.io/badge/skills-18-blue)](#skill-library)
 [![Install](https://img.shields.io/badge/install-one--liner-brightgreen)](#quick-install)
 
 ---
@@ -30,6 +30,14 @@ https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/database/claude.sk
 https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/security/claude.skill.md → ~/.claude/skills/security.md
 https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/performance/claude.skill.md → ~/.claude/skills/performance.md
 https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/devops/claude.skill.md → ~/.claude/skills/devops.md
+https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/architecture/claude.skill.md → ~/.claude/skills/architecture.md
+https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/code-review/claude.skill.md → ~/.claude/skills/code-review.md
+https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/data-science/claude.skill.md → ~/.claude/skills/data-science.md
+https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/frontend/claude.skill.md → ~/.claude/skills/frontend.md
+https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/mobile/claude.skill.md → ~/.claude/skills/mobile.md
+https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/machine-learning/claude.skill.md → ~/.claude/skills/machine-learning.md
+https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/system-design/claude.skill.md → ~/.claude/skills/system-design.md
+https://raw.githubusercontent.com/dill-lk/Claude-Skillls/main/accessibility/claude.skill.md → ~/.claude/skills/accessibility.md
 
 Confirm each file saved successfully.
 ```
@@ -82,6 +90,14 @@ Each subfolder targets a specific software-engineering discipline and contains a
 | 🔒 Security | Review code for vulnerabilities, design auth systems, audit configs | [view](./security/claude.skill.md) |
 | ⚡ Performance | Profile bottlenecks, optimise algorithms, design caching strategies | [view](./performance/claude.skill.md) |
 | 🚀 DevOps | Write CI/CD pipelines, Dockerfiles, Kubernetes manifests, Terraform | [view](./devops/claude.skill.md) |
+| 🏛️ Architecture | Design scalable systems, apply patterns, write ADRs | [view](./architecture/claude.skill.md) |
+| 👁️ Code Review | Perform thorough reviews for correctness, design, security, and performance | [view](./code-review/claude.skill.md) |
+| 📊 Data Science | EDA, data cleaning, statistical tests, visualisation, pipelines | [view](./data-science/claude.skill.md) |
+| 🖥️ Frontend | Components, state, CSS layouts, performance, and accessibility | [view](./frontend/claude.skill.md) |
+| 📱 Mobile | React Native, Flutter, Swift, Kotlin — screens, navigation, offline support | [view](./mobile/claude.skill.md) |
+| 🤖 Machine Learning | Training pipelines, evaluation, explainability, deployment, drift monitoring | [view](./machine-learning/claude.skill.md) |
+| 🗺️ System Design | Distributed systems, capacity planning, data models, failure modes | [view](./system-design/claude.skill.md) |
+| ♿ Accessibility | WCAG audits, ARIA patterns, keyboard navigation, screen reader testing | [view](./accessibility/claude.skill.md) |
 
 ---
 
@@ -117,8 +133,10 @@ Tell Claude Code once, and it will remember for every future session:
 Add to my global memory:
 Skill files are at ~/.claude/skills/. Before helping with code generation,
 debugging, refactoring, testing, documentation, API design, database work,
-security reviews, performance optimisation, or DevOps tasks — read the
-matching skill file from that directory first.
+security reviews, performance optimisation, DevOps, architecture design,
+code reviews, data science, frontend, mobile, machine learning,
+system design, or accessibility — read the matching skill file from that
+directory first.
 ```
 
 ### Make skills available in a project
@@ -132,6 +150,9 @@ Read the relevant file before starting work in each area:
 - code-generation.md, debugging.md, refactoring.md, testing.md
 - documentation.md, api-design.md, database.md
 - security.md, performance.md, devops.md
+- architecture.md, code-review.md, data-science.md
+- frontend.md, mobile.md, machine-learning.md
+- system-design.md, accessibility.md
 ```
 
 Or run: `curl -fsSL .../install.sh | bash -s -- --append-claude-md`

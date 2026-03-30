@@ -34,6 +34,14 @@ SKILLS=(
   "security"
   "performance"
   "devops"
+  "architecture"
+  "code-review"
+  "data-science"
+  "frontend"
+  "mobile"
+  "machine-learning"
+  "system-design"
+  "accessibility"
 )
 
 # ---------------------------------------------------------------------------
